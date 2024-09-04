@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "NotePad"
 include(":app")
+include(":data")
+include(":domain")
