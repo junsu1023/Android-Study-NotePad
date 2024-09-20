@@ -34,6 +34,9 @@ android {
 }
 
 dependencies {
+    // layer
+    implementation(project(":domain"))
+
     // room
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
